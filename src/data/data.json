@@ -1,0 +1,84 @@
+{   "clientes": [
+        {
+            "id": 1,
+            "title": "Fede",
+            "direccion": "Stranfgord"
+        },{
+            "id": 2,
+            "title": "Ari",
+            "direccion": "Rivera"
+        },{
+            "id": 3,
+            "title": "Fede",
+            "direccion": "Evita"
+        }
+    ],
+    "picadas": [
+        {
+            "id": 1,
+            "title": "De La Casa",
+            "content": ["Jamon Cocido","Lomo con Hierbas","Jamon Crudo","Salame"],
+            "tamano": ["1","2","3","4","8"]
+        },{
+            "id": 2,
+            "title": "La Buenos Aires",
+            "content": ["Jamon Crudo","Bondiola","Salame"],
+            "tamano": ["1","2","3","4","8"]
+        },{
+            "id": 3,
+            "title": "D'Italia",
+            "content": ["Jamon Cocido","Bondiola","Salame"],
+            "tamano": ["1","2","3","4","8"]
+        },{
+            "id": 4,
+            "title": "Deluxe",
+            "content": ["Jamon Cocido","Lomo con Hierbas","Jamon Crudo","Bondiola","Salame"],
+            "tamano": ["2"]
+        },{
+            "id": 5,
+            "title": "Romantica",
+            "content": ["Jamon Cocido","Lomo con Hierbas","Jamon Crudo","Salame"],
+            "tamano": ["2"]
+        },{
+            "id": 6,
+            "title": "Box FC",
+            "content": ["Jamon Cocido","Lomo con Hierbas","Jamon Crudo","Bondiola","Salame"],
+            "tamano": ["2"]
+        }
+    ],
+    "pedidos":[
+        {
+            "id": 1,
+            "fecha": "07/02/2023",
+            "hora": "20:00",
+            "cliente":[{
+                "nombre": "Federico",
+                "telefono": [{
+                    "numero": 1234567890,
+                    "llamar": true
+                }],
+                "red": "instagram",
+                "direccion":[{
+                    "localidad": "Villa Madero",
+                    "calle": "Coronel Dominguez",
+                    "altura": 1659,
+                    "edificio": "55",
+                    "piso": "9",
+                    "depto": "B",
+                    "nota": "Entrar al edificio"
+                    }]
+                }],
+            "pedido": [{
+                "picadas":[{
+                    "title": "De La Casa",
+                    "tamano": 2,
+                    "cambio1": ["jamon","salame"],
+                    "cambio2": ["jamon","salame"],
+                    "pan": "cocido"
+                }],
+                "adicionales": ["mani","berenjenas"]
+            }]
+        }
+    ]
+}
+

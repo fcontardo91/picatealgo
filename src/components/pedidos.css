@@ -1,0 +1,61 @@
+.card__pedido {
+  border-radius: 10px;
+  background-color: lightgray;
+  margin-bottom: 5px;
+}
+
+.card__zonahora {
+  background-color: black;
+  border-radius: 10px 10px 0 0;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.card__nropedido {
+  background-color: lightblue;
+  font-weight: bold;
+}
+
+.card__nropedido > span {
+  margin: 0 10px;
+}
+
+.card__descpedido__picada {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card__descpedido__picada > span:last-child {
+  background-color: red;
+  padding: 1px;
+  border-radius: 8px;
+}
+
+.card__cambio {
+  display: flex;
+  flex-direction: column;
+  margin-top: -5px;
+  font-size: small;
+  font-weight: 300;
+}
+
+.card__adicionales {
+  padding: 5px ;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card__adicionales > span {
+  background-color: brown;
+  color: white;
+  border-radius: 10px;
+  padding: 2px;
+  margin: 1px;
+}
